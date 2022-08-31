@@ -1,0 +1,28 @@
+.mission-page{
+    color: white;
+    text-align: left;
+    width: 60%;
+    padding: auto;
+    margin: 170px auto;
+    line-height: 1.5rem;
+  }
+  
+  .special-text-bold{
+    font-weight: bold;
+  }
+  
+  .special-text-italian{
+    font-style:italic
+  }
+  
+  .special-text-underscore{
+    text-decoration: underline;
+  }
+  
+  a{
+    text-decoration: underline;
+  }
+  
+  .no-underline{
+    text-decoration: none;
+  }

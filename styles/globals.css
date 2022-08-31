@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  color: white;
+  position: fixed;
+  top: 0;
+  padding: 0 3vw;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.navbarLogo {
+  margin: auto 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  max-width: 55px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* align-items: right; */
+  justify-content: right;
+
+  height: 100%;
+}
+
+/* .navbar img {
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+} */
+
+.navbar li {
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.mission-page{
+  color: white;
+  text-align: left;
+  width: 60%;
+  padding: auto;
+  margin: 170px auto;
+  line-height: 1.5rem;
+}
+
+.special-text-bold{
+  font-weight: bold;
+}
+
+.special-text-italian{
+  font-style:italic
+}
+
+.special-text-underscore{
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: underline;
+}
+
+.no-underline{
+  text-decoration: none;
+}
